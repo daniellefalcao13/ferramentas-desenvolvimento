@@ -1,0 +1,167 @@
+# References
+
+If you need resources to learn about front-end performance here is the best place.
+
+## General
+
+### Books
+
+* [Steve Souders - High Performance Web Sites](http://www.google.com/products?q=high+performance+web+sites&hl=en)
+* [Steve Souders - Even Faster Web Sites](http://www.google.com/products?q=even+faster+web+sites&hl=en)
+
+### Web
+
+* [Yahoo! Best Practices](http://developer.yahoo.com/performance/rules.html)
+* [Google Speed](https://developers.google.com/speed/pagespeed/?hl=pt-BR)
+* [14 Rules for Faster-Loading Web Sites](http://stevesouders.com/hpws/rules.php)
+* [FrontEnd Development Guidelines](http://taitems.github.com/Front-End-Development-Guidelines/)
+* [Front-end performance for web designers and front-end developers](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/)
+* [Performance Calendar](http://calendar.perfplanet.com/2012/)
+
+### People
+
+* [Steve Souders](http://stevesouders.com)
+* [Stoyan Stefanov](http://www.phpied.com/)
+* [Ilya Grigorik](http://www.igvita.com/)
+* [Marcel Duran](https://github.com/marcelduran)
+
+### Tools
+
+* [YSlow](http://yslow.org/)
+* [PageSpeed](https://developers.google.com/speed/pagespeed/)
+* [WebPageTest](http://www.webpagetest.org/)
+
+## HTML
+
+### 28 - Avoid inline code
+
+* [Yahoo! Best Practices - Make JavaScript and CSS External](http://developer.yahoo.com/performance/rules.html#external)
+* [Perf Calendar - Make your mobile pages render in under one second](http://calendar.perfplanet.com/2012/make-your-mobile-pages-render-in-under-one-second/)
+
+### 27 - Styles up top, Scripts down bottom
+
+* [Google Speed - Move CSS to <head>](https://developers.google.com/speed/docs/pss/MoveCSSToHead)
+* [Yahoo! Best Practices - Put Stylesheets at the Top](http://developer.yahoo.com/performance/rules.html#css_top)
+
+### 26 - Minify your HTML
+
+* [Google Speed - Minify HTML](https://developers.google.com/speed/docs/best-practices/payload?hl=pt-BR#MinifyHTML)
+
+### 25 - Try out async & defer
+
+* [Google Speed - HTML5 Performance](http://code.google.com/speed/articles/html5-performance.html)
+
+## CSS
+
+
+### 24 - Minify your Stylesheets
+
+* [Yahoo! Best Practices - Minify JavaScript and CSS](http://developer.yahoo.com/performance/rules.html#minify)
+* [Google Speed - Minify CSS](https://developers.google.com/speed/docs/best-practices/payload?hl=en#MinifyCSS)
+
+### 23 - Combining multiple CSS files
+
+* [Google Speed - Combine CSS](https://developers.google.com/speed/docs/best-practices/rtt#CombineExternalCSS)
+
+### 22 - Don't use the universal selector
+
+* [MDN - Writing Efficient CSS](https://developer.mozilla.org/en-US/docs/CSS/Writing_Efficient_CSS)
+
+### 21 - Prefer <link> over @import
+
+* [Steve Souders - Don't use import](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)
+* [Yahoo! Best Practices - Choose <link> over @import](http://developer.yahoo.com/performance/rules.html#csslink)
+* [Google Speed - Avoid CSS @import](https://developers.google.com/speed/docs/best-practices/rtt#AvoidCssImport)
+
+### 20 - Think about (and rethink) your Key Selector
+
+* [MDN - Writing Efficient CSS](https://developer.mozilla.org/en-US/docs/CSS/Writing_Efficient_CSS)
+* [Steve Souders - Simplifying CSS selectors](http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/)
+* [CSS Wizardry - Writing efficient CSS selectors](http://csswizardry.com/2011/09/writing-efficient-css-selectors/)
+* [CSS Tricks - Efficiently Rendering CSS](http://css-tricks.com/efficiently-rendering-css/)
+
+## JavaScript
+
+### 19 - Load 3rd party content asynchronously
+
+* [Stoyan Stefanov - Social Button BFFs](http://www.phpied.com/social-button-bffs/)
+
+### 18 - Cache array lengths
+
+* [Front-End Development Guidelines - JavaScript Loop Cache Array Length](http://taitems.github.com/Front-End-Development-Guidelines/#javascriptLoopCacheArrayLength)
+
+### 17 - Avoid document.write
+
+* [Steve Souders - Don't docwrite scripts](http://www.stevesouders.com/blog/2012/04/10/dont-docwrite-scripts/)
+
+### 16 - Minimize Repaints and Reflows
+
+* [Front-End Development Guidelines - JavaScript Reflow](http://taitems.github.com/Front-End-Development-Guidelines/#javascriptReflow)
+* [Nettuts - 10 ways to instantly increase your jQuery performance](http://net.tutsplus.com/tutorials/javascript-ajax/10-ways-to-instantly-increase-your-jquery-performance/)
+
+### 15 - Minify your script
+
+* [Yahoo! Best Practices - Minify JavaScript and CSS](http://developer.yahoo.com/performance/rules.html#minify)
+
+### 14 - Combine multiple JS files into one
+
+* [Google Speed - Combine external JS](https://developers.google.com/speed/docs/best-practices/rtt#CombineExternalJS)
+
+## jQuery
+
+### 13 - Always use the latest version of jQuery
+
+* [Addy Osmani - jQuery Proven Performance Tips & Tricks - #13](http://addyosmani.com/jqprovenperformance/)
+
+### 12 - Selectors
+
+* [Addy Osmani - jQuery Proven Performance Tips & Tricks - #21](http://addyosmani.com/jqprovenperformance/)
+* [JSPerf - jquery selectors](http://jsperf.com/jquery-selectors-context/2)
+
+### 11 - Take advantage of method chaining
+
+* [JSPerf - jQuery Chaining](http://jsperf.com/jquery-chaining/17)
+
+### 10 - use for instead of each
+
+* [JSPerf - jquery.each vs for loop](http://jsperf.com/jquery-each-vs-for-loop/194)
+* [JSFiddle - native loop vs jquery.each](http://jsfiddle.net/martinaglv/NcRsV/)
+
+### 9 - Don't use jquery...
+
+* [Addy Osmani - jQuery Proven Performance Tips & Tricks - #43](http://addyosmani.com/jqprovenperformance/)
+* [JSPerf - $(this).attr('id') vs this.id](http://jsperf.com/como-perder-peso-this-attr-id-vs-this-id)
+
+## Images
+
+### 8 - Use CSS Sprites
+
+* [Google Speed - CSS Sprites](https://developers.google.com/speed/docs/best-practices/rtt?hl=en#SpriteImages)
+* [Yahoo! Best Practices - Optimize CSS Sprites](http://developer.yahoo.com/performance/rules.html#opt_sprites)
+
+### 7 - Data URI
+
+* [CSS Tricks - Data URIs](http://css-tricks.com/data-uris/)
+* [Google Speed - Mobile](https://developers.google.com/speed/articles/mobile)
+
+### 6 - Don't scale images in markup
+
+* [Yahoo! Best Practices - Don't Scale Images in HTML](http://developer.yahoo.com/performance/rules.html#no_scale)
+* [Google Speed - Specify image dimensions](https://developers.google.com/speed/docs/best-practices/rendering?hl=pt-BR#SpecifyImageDimensions)
+
+### 5 - Optimize your images
+
+* [Yahoo! Best Practices - Optimize images](http://developer.yahoo.com/performance/rules.html#opt_images)
+* [Google Speed - Optimize images](https://developers.google.com/speed/docs/best-practices/payload?hl=pt-BR#CompressImages)
+
+## Server
+
+### 4 - Enable smart caching
+
+* [Yahoo! Best Practices - Add Expires or Cache-Control headers](http://developer.yahoo.com/performance/rules.html#expires)
+* [Google Speed - Caching](https://developers.google.com/speed/docs/best-practices/caching?hl=pt-BR)
+
+### 3 - GZIP
+
+* [Yahoo! Best Practices - Gzip components](http://developer.yahoo.com/performance/rules.html#gzip)
+* [Google Speed - Enable compression](https://developers.google.com/speed/docs/best-practices/payload?hl=pt-BR#GzipCompression)
